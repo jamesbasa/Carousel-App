@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from 'react-bootstrap'
-import { app } from '../constants'
+import { app, portfolio } from '../constants'
 import '../Carousel/Carousel.css';
 import '../index.css';
 
@@ -31,7 +31,7 @@ function About() {
           to gain more frontend experience.
         </p>
         <br/><br/>
-        <Button href="https://jamesbasa.github.io/" target="_blank" rel="noreferrer">My Portfolio</Button>{' '}
+        <Button href={portfolio} target="_blank" rel="noreferrer">My Portfolio</Button>{' '}
       </span>
     </div>
   );

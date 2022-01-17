@@ -13,8 +13,11 @@ const carousels = {
   shows: `Shows`,
 }
 
+const portfolio = `https://jamesbasa.github.io/`
+
 module.exports = {
   paths,
   app,
-  carousels
+  carousels,
+  portfolio,
 }
