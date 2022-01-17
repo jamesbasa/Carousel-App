@@ -20,17 +20,15 @@ function Carousel(props) {
   };
 
   return (
-    <div>
-      <div className="carousel">
-        <header className="title">
-          {title}
-        </header>
-        <Slider {...settings}>
-          {urls.map((url) => {
-            return <CarouselSlide url={url}/>
-          })}
-        </Slider>
-      </div>
+    <div className="carousel">
+      <header className="title">
+        {title}
+      </header>
+      <Slider {...settings}>
+        {urls.map((url) => {
+          return <CarouselSlide url={url}/>
+        })}
+      </Slider>
     </div>
   );
 }

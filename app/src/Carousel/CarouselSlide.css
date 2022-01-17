@@ -1,8 +1,8 @@
 .slide {
   display: block;
   margin: auto;
-  min-height: 250px;
-  max-height: 250px;
+  min-height: 310px;
+  max-height: 310px;
   position: relative;
   font-size: 0;
 }
@@ -12,11 +12,11 @@
   margin: inherit;
   min-height: inherit;
   max-height: inherit;
-  min-width: 98%;
-  max-width: 98%;
+  min-width: 90%;
+  max-width: 90%;
   border-radius: 10px;
   position: relative;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .slide p {

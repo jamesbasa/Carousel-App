@@ -12,7 +12,7 @@ function About() {
       </header>
       <span>
         <p>
-          Browse my favorite movies, shows, and more by clicking {app.name} above!
+          Browse my favorite movies, shows, and more by clicking {app.name} above! Note: these aren't in any particular order.
         </p>
         <br/><br/>
         <p>
