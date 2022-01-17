@@ -1,12 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Carousel from './Carousel/Carousel';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import NavigationBar from './NavigationBar/NavigationBar';
+import CarouselPage from './Carousel/CarouselPage';
+import About from './About/About';
 import reportWebVitals from './reportWebVitals';
+import { paths } from './constants'
 import './index.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Carousel />
+    <NavigationBar />
+    <BrowserRouter>
+      <Routes>
+        <Route path={paths.home} element={<CarouselPage />} />
+        <Route path={paths.about} element={<About />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root'),
 );

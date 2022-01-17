@@ -1,13 +1,7 @@
-.Carousel {
+.carousel {
   text-align: center;
   display: block;
   margin: auto;
-}
-
-.Carousel__header {
-  display: block;
-  margin: 10px;
-  font-size: calc(10px + 2vmin);
 }
 
 /* slick-carousel overrides */
@@ -37,7 +31,7 @@
 }
 
 .slick-slider {
-  width: 95%;
+  width: 94%;
   display: block;
   margin: auto;
 }

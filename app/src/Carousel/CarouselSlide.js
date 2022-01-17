@@ -5,7 +5,7 @@ function CarouselSlide(props) {
   const { url } = props;
 
   return (
-    <a href={url} target="_blank">
+    <a href={url} target="_blank" rel="noreferrer">
       <div className="slide">
         <img className="slide__img" src={url} />
         <p>
