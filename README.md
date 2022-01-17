@@ -1,15 +1,17 @@
-# Carousel-App
+# Favorites-Gallery-App
 
-TODO: Summary
+This app contains galleries of some of my favorite things (just movies and shows for now).
+It contains carousels (lazy loading!), a navbar, and router.
+
+I used React, React Router, React Bootstrap, and React Slick to build it.
+
+
 ## How To Run
 
-In the `app` directory, you can run:
+1. In the `app` directory, run:
+
+### `npm install`
+
+2. Then run:
 
 ### `npm start`
-
-## TODO
-
-1. Add a navbar
-2. Add more carousels
-3. Add carousel titles
-4. Make it look nicer
