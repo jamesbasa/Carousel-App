@@ -6,8 +6,9 @@ It contains carousels (lazy loading!), a navbar, and router.
 I used React, React Router, React Bootstrap, and React Slick to build it.
 
 ## Example
-![Home page image](home.png)
-![About page image](about.png)
+![Homepage movies image](img/home-movies.png)
+![Homepage shows image](img/home-shows.png)
+![About page image](img/about.png)
 
 ## How To Run
 
