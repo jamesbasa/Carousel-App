@@ -1,6 +1,0 @@
-# https://www.robotstxt.org/robotstxt.html
-
-# means this section applies to all robots
-User-agent: *
-# tells the robot that it should not visit any pages on the site.
-Disallow:
