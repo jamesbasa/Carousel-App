@@ -1,9 +1,13 @@
 # Favorites-Gallery-App
 
 This app contains galleries of some of my favorite things (just movies and shows for now).
-It contains carousels (lazy loading!), a navbar, and router.
+It contains carousels (lazy loading!), a navbar, and a router.
 
 I used React, React Router, React Bootstrap, and React Slick to build it.
+
+## Heroku App
+`Favorites Gallery App`
+- Visit my Heroku app: https://favorites-gallery.herokuapp.com/
 
 ## Example
 ### Homepage: Movies Carousel
@@ -15,7 +19,7 @@ I used React, React Router, React Bootstrap, and React Slick to build it.
 
 ## How To Run
 
-1. In the `app` directory, run:
+1. Run:
 
 ### `npm install`
 
